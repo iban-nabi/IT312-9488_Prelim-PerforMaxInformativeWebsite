@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="author" content="DataBeasts">
+        <title>Menu</title>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <nav>     
+            <div class="site_name font-extrabold color-three" onclick="window.location.href='index.html'"><p>PerforMax!</p></div>
+            <input type="checkbox" name="menu" id="menu-bar">
+            <div class="toggle">
+                <span class="top_line common"></span>
+                <span class="middle_line common"></span>
+                <span class="bottom_line common"></span>
+            </div>
+            <ul class="menu-selection" id="navLinks">         
+                <li class="hide-mobile"><a href="" class="perf_management_nav">Performance Management</a>
+                    <ul>
+                        <li><a href="/index.html#definition">Definition</a></li>
+                        <li><a href="/index.html#history">History</a></li>
+                        <li><a href="hr_benefits.html">Benefits</a></li>
+                        <li><a href="hr_challenges.html">Challenges</a></li>
+                        <li><a href="hr_promotion.html">Promotion Criteria</a></li>
+                    </ul>
+                </li>
+
+                <li class="hide-desktop"><a href="hr_benefits.html">Benefits</a></li>
+                <li class="hide-desktop"><a href="hr_challenges.html">Challenges</a></li>
+                <li class="hide-desktop"><a href="hr_promotion.html">Promotion Criteria</a></li>
+                <li><a href="hr_elements.html" class="five_elements_nav">5 Elements</a></li>
+                <li><a href="hr_framework.html" class="framework_nav">Framework</a></li>
+                <li><a href="hr_skills.html" class="skills_nav">Skills</a></li>
+                <li><a href="index.html#aboutus" class="about_us_nav">About Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="wrapper">
+            <div class="article-title color-two font-extrabold">Exploring Performance Management</div>
+            <div class="menu-container" onclick="window.location.href='hr_benefits.html'">
+                <img class="responsive_image hover-image rounded-image" src="style/benefits_banner.jpg" alt="Banner of Benefits">
+                <p class="menu-text font-extrabold color-three">Benefits</p>
+            </div>
+            <div class="menu-container" onclick="window.location.href='hr_challenges.html'">
+                <img class="responsive_image hover-image rounded-image" src="style/header.jpg" alt="Banner of Challenges">
+                <p class="menu-text font-extrabold color-three">Challenges</p>
+            </div>
+            <div class="menu-container" onclick="window.location.href='hr_skills.html'">
+                <img class="responsive_image hover-image rounded-image" src="style/skill_banner.jpg" alt="Banner of Skills">
+                <p class="menu-text font-extrabold color-three">Skills</p>
+            </div>
+            <div class="menu-container" onclick="window.location.href='hr_framework.html'">
+                <img class="responsive_image hover-image rounded-image" src="style/framework_banner.jpg" alt="Banner of Framework">
+                <p class="menu-text font-extrabold color-three">Framework</p>
+            </div>
+        </div>
+        <div class="outer-footer font-bold">
+            Copyright &copy; PerformMax! All Rights Reserved
+        </div>
+    </body>
+</html>
